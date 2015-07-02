@@ -46,7 +46,7 @@ class CSVParser:
 		return query
 
 	def insert_records(self, table):
-		"""Builds a query for inserting data into the database
+		"""Inserts CSV data into the database
 
 		Args:
 			table: (str) The name of the table to insert values into
