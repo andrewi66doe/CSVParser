@@ -65,8 +65,8 @@ class CSVParser:
 if __name__ == "__main__":
         
         database = MySQLdb.connect(host="localhost",
-                                   user="root",
-                                   passwd="amazinggaw1452",
+                                   user="User",
+                                   passwd="Password",
                                    db="test_data")
 	parser = CSVParser("sm_hourlyDataDummy3.csv", database)
 	parser.insert_records('sm_hourlyDataDummy3Structure')
